@@ -1,0 +1,11 @@
+{
+    "name": "Slim",
+    "image": "debian:bookworm-slim",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "postCreateCommand": "echo 'Container ready. Nothing installed.'"
+}
