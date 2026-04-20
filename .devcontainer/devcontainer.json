@@ -1,11 +1,12 @@
 {
-    "name": "Slim",
-    "image": "debian:bookworm-slim",
+    "name": "Ubuntu VPS",
+    "image": "ubuntu:22.04",
+    "remoteUser": "root",
     "features": {},
     "customizations": {
         "vscode": {
             "extensions": []
         }
     },
-    "postCreateCommand": "echo 'Container ready. Nothing installed.'"
+    "postCreateCommand": "apt-get update"
 }
