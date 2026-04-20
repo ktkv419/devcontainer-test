@@ -2,11 +2,12 @@
     "name": "Ubuntu VPS",
     "image": "ubuntu:22.04",
     "remoteUser": "root",
-    "features": {},
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
     "customizations": {
         "vscode": {
             "extensions": []
         }
-    },
-    "postCreateCommand": "apt-get update"
+    }
 }
